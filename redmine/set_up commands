@@ -1,0 +1,13 @@
+$ docker login
+
+The quickest way to get started is using docker-compose.
+
+$ cd redmine
+$ docker-compose up -d
+
+Figure out the ip address of Docker host. If you're running Linux, it's just localhost, or 127.0.0.1. If you're using Docker Machine on Mac or Windows, you'll need to run:
+$ docker-machine ip default
+
+Point your browser to http://localhost:10083 and login using the default username and password:
+-username: admin
+-password: admin
